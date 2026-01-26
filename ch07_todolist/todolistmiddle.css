@@ -1,0 +1,53 @@
+/* todolist.css */
+
+/* 깔끔한 고딕체 폰트 (애플 산돌고딕/프리텐다드 스타일) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', 'Pretendard', -apple-system, sans-serif;
+}
+
+body {
+  background-color: #f5f7f9; /* 편안한 연회색 배경 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Block: Todo App 컨테이너 */
+.todo-app {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 450px;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); /* 은은한 그림자 */
+  border: 1px solid #e1e4e8;
+}
+
+/* Element: Header & Title */
+.todo-app__header {
+  margin-bottom: 2rem;
+}
+
+.todo-app__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  letter-spacing: -0.5px;
+}
+
+.todo-app__title--emoji {
+  font-size: 1.2rem;
+  vertical-align: middle;
+}
+
+/* Element: Input Group */
+.todo-app__input-group {
+  display: flex;
+  border-bottom: 2px solid #333; /* 정
