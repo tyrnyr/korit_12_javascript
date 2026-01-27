@@ -50,4 +50,5 @@ body {
 /* Element: Input Group */
 .todo-app__input-group {
   display: flex;
-  border-bottom: 2px solid #333; /* 정
+  border-bottom: 2px solid #333;
+}
